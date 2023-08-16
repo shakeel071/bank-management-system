@@ -81,7 +81,6 @@ public class SignupOne  extends JFrame implements ActionListener{
         gendergroup.add(female);
         gendergroup.add(other);
 
-
         JLabel email=new JLabel("Email Address:");
         email.setFont(new Font("Raleway",Font.BOLD,20));
         email.setBounds(100,340,200,30);
@@ -107,13 +106,9 @@ public class SignupOne  extends JFrame implements ActionListener{
         unmarried.setBackground(Color.WHITE);
         add(unmarried);
 
-         
-
         ButtonGroup maritalgroup=new ButtonGroup();
         maritalgroup.add(married);
         maritalgroup.add(unmarried);
-
-
 
         JLabel address=new JLabel("Address:");
         address.setFont(new Font("Raleway",Font.BOLD,20));
@@ -162,8 +157,6 @@ public class SignupOne  extends JFrame implements ActionListener{
         next.setBounds(620,640,80,30);
         next.addActionListener(this);
         add(next);
-
-
 
         getContentPane().setBackground(Color.WHITE);
 
